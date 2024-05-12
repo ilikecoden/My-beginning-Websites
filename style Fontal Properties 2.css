@@ -1,0 +1,30 @@
+*{
+    background-color:black ;
+}
+#Main-header{
+font-family: "Lora", serif;
+font-optical-sizing: auto;
+font-weight:700;
+font-style: normal;
+color:white;
+} 
+.text-color{
+    text-align: left;
+}  
+#h2{
+    color: aliceblue;
+}
+.text-blog{ 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: "200";
+    font-style: normal;    
+}
+.h4{
+    color: aliceblue;
+    
+}
+
+.h3{
+    color:aliceblue ;
+}
+
