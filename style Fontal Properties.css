@@ -1,0 +1,14 @@
+*{
+    background-color:black ;
+}
+#Main-header{
+font-family: "Lora", serif;
+font-optical-sizing: auto;
+font-weight:700;
+font-style: normal;
+color:white;
+} 
+.text-color{
+    text-align: left;
+}  
+
