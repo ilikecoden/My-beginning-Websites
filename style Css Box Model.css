@@ -1,0 +1,20 @@
+.text-header{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style:italic;
+    color: aqua;
+}
+.main.container{
+    
+    background-color: aquamarine;
+}
+.text-section{
+    margin: 4px;
+    border-top:20cap;
+    border-width: 10cap;
+    border: solid black;
+    width: 50vh;
+    background-color: aqua;
+}
+
