@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+.img{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: -9980px;
+    bottom: -9870px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    border-top: 5px;
+    border: solid white;
+}
+.h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+.h2{
+    font-size:medium;
+    position: absolute;
+    top: 770px;
+    left: 50px;
+    color: aliceblue;
+}
