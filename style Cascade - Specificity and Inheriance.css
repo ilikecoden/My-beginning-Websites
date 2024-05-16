@@ -1,0 +1,28 @@
+.h1-box{
+    
+    padding: 20px;
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+}
+.h2-box{
+    position: fixed;
+    top: 85px;
+    left: 75px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    width: 600px;
+}
+.h1-box2{
+    position: fixed;
+    top:250px ;
+    left:25px ;
+}
+.h2-box2{
+    position:fixed;
+    top: 300px;
+    left: 75px;
+    color: white;
+    background-color: black;
+}
