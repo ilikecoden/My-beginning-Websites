@@ -1,0 +1,37 @@
+.flag{
+  text-align: center;
+  top: 300px;
+  position: static;
+  background-color:#CE1126;
+  height: 500px; 
+  width: 800px;
+            
+}
+div{
+  position: fixed;
+  top:158px;
+  left: 8px;
+  height: 280px;
+  width: 800px;
+  background-color: rgb(0, 40, 104);
+}
+p{
+  
+  color:azure;
+  font-size: 50px;
+}
+.color1{
+  position: fixed;
+  top: 20px;
+  left: 300px;
+}
+.color2{
+  color: black;
+  position: fixed;
+  left: 320px;
+  padding:20px;
+  width: 120px;
+  border-radius: 100%;
+  background-color: white;
+}
+
