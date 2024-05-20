@@ -1,0 +1,26 @@
+.box{
+  border: solid black;
+  display: block;
+}
+.color1{
+  height: 200px;
+  width: 200px;
+  padding: 3em;
+  color: white;
+  font-size: 1em;
+  background-color: blueviolet;
+}
+.color2{
+  height: 200px;
+  width: 200px;
+  padding: 3em;
+  color: white;
+  background-color:blue;
+}
+.color3{
+  height: 200px;
+  width: 200px;
+  padding: 3em;
+  color: white;
+  background-color:brown;
+}
