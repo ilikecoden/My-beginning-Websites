@@ -1,0 +1,17 @@
+*{
+    margin: 5px;
+}
+.grid-container{
+    height: 160vh;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px ;
+    gap: 30px;
+}
+.grid-item-1{
+    padding: 28px;
+    background-color: rgb(240, 217, 181);
+}
+.grid-item-2{
+    background-color: rgb(181, 136, 99)
+}
