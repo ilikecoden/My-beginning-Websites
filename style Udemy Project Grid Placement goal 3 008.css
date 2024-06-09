@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 10px;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+.cowboy{
+    background-color: lightcoral;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.astronaut{
+    background-color: lightseagreen;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.book{
+    background-color: lightgreen;
+    grid-column-start:4;
+    grid-column-end:8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
