@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorchid;
+}
+.cowboy{
+    font-size: 1.5rem;
+}
+.astronaut{
+    font-size: 1.5rem;
+}
+.book{
+    font-size: 1.5rem;
+}
