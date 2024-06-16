@@ -1,0 +1,130 @@
+/* Side Project Responsive Header  */
+*{
+  box-sizing: border-box;
+}
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: #e3e3e3;
+  background-color: #233142;
+}
+.navbar-links ul{
+  list-style: none ;
+  display: flex;
+  
+}
+.navbar-links li a{
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: #e3e3e3;
+  margin: .5rem;
+}
+.brand-title{
+  font-size: 1.5rem;
+  color: #e3e3e3;
+  margin-left: .8rem;
+  margin-bottom: .5rem;
+}
+.span{
+  color: #f95959;
+}
+.navbar-links li:hover{
+  background-color: #f95959;
+}
+.toggle-button{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  top: .75rem;
+  right: 1rem;
+  height: 21px;
+  width: 30px;
+  color:#e3e3e3;
+  display: none;
+}
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+}
+.grid-container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 100px 100px 100px 100px  100px 100px auto;
+  grid-template-rows: 100px 100px 100px 100px 100px auto;
+  background-color: #233142;
+}
+.grid-item-1{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  
+}
+.title-1{
+  margin: 1rem;
+  color: #e3e3e3;
+  font-size: 1.5rem;
+}
+.title-2{
+color: #e3e3e3;
+}
+.button {
+  text-align: center;
+  background-color: #f95959;
+  padding: 10px;
+  color:#e3e3e3;
+  border-color: #e3e3e3;
+  height: 3rem;
+  width: 5rem;
+  text-decoration-line: none;
+  border-radius: .65rem;
+}
+
+.grid-item-2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.grid-item-3{
+
+}
+@media (max-width: 600px){
+  .toggle-button{
+    display: none;
+    display: flex;
+  }
+  .navbar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navbar-links{
+    
+    width: 100%;
+  }
+  .navbar-links ul{
+    display: flex;
+    flex-direction: column ;
+  }
+  .navbar-links li{
+    text-align: center;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links .active{
+    display: flex;
+  }
+}
